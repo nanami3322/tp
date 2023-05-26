@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <left>
+      <VBox fx:id="vbox" prefHeight="400.0" prefWidth="164.0" style="-fx-background-color: #0D1824;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Client" mnemonicParsing="false" onAction="#Client" prefHeight="66.0" prefWidth="169.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Client" textFill="#f7f1f1" />
+            <Button fx:id="Fournisseur" mnemonicParsing="false" onAction="#Fournisseur" prefHeight="66.0" prefWidth="169.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Fournisseur" textFill="#f7f1f1" />
+            <Button fx:id="Produit" mnemonicParsing="false" onAction="#Produit" prefHeight="66.0" prefWidth="169.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Produit" textFill="#f7f1f1" />
+            <Button fx:id="Facture" mnemonicParsing="false" onAction="#Facture" prefHeight="66.0" prefWidth="169.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Facture" textFill="#f7f1f1" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="ap" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #14242B;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
